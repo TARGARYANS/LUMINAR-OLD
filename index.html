@@ -41,6 +41,10 @@
 
         }
 
+        .bor{
+          border: 0;
+        }
+
         
            
       </style>
@@ -123,7 +127,7 @@
               </div>
             </div>
           </div>
-        
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -134,5 +138,58 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: blueviolet;color: whitesmoke;">
+  CLICK HERE
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="border: 0;">
+        
+        <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body container" style="padding-left: 40px;padding-right: 40px;">
+        <h2>Get Training Quote for free</h2>
+        <br>
+        <form action="">
+          <input class="bor" placeholder="Name">
+          <br>
+          <hr>
+          <input class="bor" placeholder="Email">
+          <br>
+          <hr>
+          <input class="bor" placeholder="Phone Number">
+          <br>
+          <hr>
+          <label style="font-weight: bold;" for="w1">Select Course Interested in</label>
+          <select name="" id="w1">
+            <option value="">PYTHON</option>
+            <option value="">DATA SCIENCE</option>
+            <option value="">MEARN</option>
+            <option value="">FLUTTER</option>
+          </select>
+          <br>
+          <hr>
+          <input class="bor" placeholder="City"><br>
+          <hr>
+          <textarea style="border: 0;" name="" id="" cols="30" rows="6">Comments</textarea>
+          <hr>
+
+          <button style="background-color: rgb(94, 6, 138);color: whitesmoke;">SUBMIT QUERY</button>
+
+        </form>
+        
+      </div>
+      
+        
+        
+    
+    </div>
+  </div>
+</div>
 </body>
 </html>
